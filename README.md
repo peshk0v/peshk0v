@@ -9,7 +9,7 @@
 - **Arduino** 🤖
 
 Также я занимаюсь переводом Minecraft модов и публикую их на Modrinth. Если тебе интересно, загляни в мою организацию:  
-[![Modrinth]([https://img.shields.io/badge/Modrinth-Pshkv-blue?style=flat&logo=modrinth)](https://modrinth.com/organization/pshkv](https://modrinth.com/user/peshk0v))
+[![Modrinth](https://img.shields.io/badge/Modrinth-Pshkv-blue?style=flat&logo=modrinth)](https://modrinth.com/user/peshk0v)
 
 ---
 
