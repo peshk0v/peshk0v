@@ -35,7 +35,7 @@
 ---
 
 ### Связаться со мной:
-- **Telegram**: [![Telegram](https://img.shields.io/badge/Telegram-Pshlst-blue?style=flat&logo=telegram)](https://t.me/pshlst)  
+- **Telegram**: [![Telegram](https://img.shields.io/badge/Telegram-PSHKVLiveStyle-blue?style=flat&logo=telegram)](https://t.me/pshlst)  
   Подписывайся на мой канал, где я делюсь своими достижениями в программировании и новостями о проектах!
 
 ---
