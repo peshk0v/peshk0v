@@ -2,11 +2,17 @@
 
 Я начинающий программист, увлечённый созданием интересных проектов и изучением новых технологий. Мой стек включает:
 
-- **Python** 🐍 (использую чаще всего)
-- **JavaScript** 📜
-- **Node.js** 🚀
-- **React** ⚛️
-- **Arduino** 🤖
+<div>
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/python.png" width="48">
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/js.png" width="48">
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/html.png" width="48">
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/css.png" width="48">
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/bash.png" width="48">
+  <br>
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/archlinux.png" width="48">
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/android.png" width="48">
+  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/ios.png" width="48">
+</div>
 
 Также я занимаюсь переводом Minecraft модов и публикую их на Modrinth. Если тебе интересно, загляни в мою организацию:  
 [![Modrinth](https://img.shields.io/badge/Modrinth-Pshkv-blue?style=flat&logo=modrinth)](https://modrinth.com/user/peshk0v)
@@ -35,8 +41,14 @@
 ---
 
 ### Связаться со мной:
-- **Telegram**: [![Telegram](https://img.shields.io/badge/Telegram-PSHKVLiveStyle-blue?style=flat&logo=telegram)](https://t.me/pshlst)  
-  Подписывайся на мой канал, где я делюсь своими достижениями в программировании и новостями о проектах!
+<div>
+  <a href="https://t.me/pshlst">
+    <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/social/telegram.png" width="48">
+  </a>
+  <a href="https://discord.gg/TuQxJR3P">
+    <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/social/discord.png" width="48">
+  </a>
+</div>
 
 ---
 
