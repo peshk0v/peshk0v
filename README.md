@@ -11,7 +11,6 @@
   <br>
   <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/archlinux.png" width="48">
   <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/android.png" width="48">
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/ios.png" width="48">
 </div>
 
 Также я занимаюсь переводом Minecraft модов и публикую их на Modrinth. Если тебе интересно, загляни в мою организацию:  
