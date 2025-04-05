@@ -1,17 +1,10 @@
+[![Website](https://img.shields.io/badge/website-E08119?style=for-the-badge&logo=About.me&logoColor=white)](https://peshk0v.github.io/TG-PSHKV-LifeStyle/)
+
 # Привет! 👋
 
 Я начинающий программист, увлечённый созданием интересных проектов и изучением новых технологий. Мой стек включает:
-
-<div>
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/python.png" width="48">
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/js.png" width="48">
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/html.png" width="48">
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/css.png" width="48">
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/languages/bash.png" width="48">
-  <br>
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/archlinux.png" width="48">
-  <img src="https://github.com/Kourva/AwesomeBadges/blob/main/Badges/distros/android.png" width="48">
-</div>
+<br>
+[![My Skills](https://skillicons.dev/icons?i=python,js,html,css,bash,linux)](https://skillicons.dev)
 
 Также я занимаюсь переводом Minecraft модов и публикую их на Modrinth. Если тебе интересно, загляни в мою организацию:  
 [![Modrinth](https://img.shields.io/badge/Modrinth-Pshkv-blue?style=flat&logo=modrinth)](https://modrinth.com/user/peshk0v)
