@@ -1,5 +1,3 @@
-[![Website](https://img.shields.io/badge/website-E08119?style=for-the-badge&logo=About.me&logoColor=white)](https://peshk0v.github.io/peshkv/)
-
 # XDDDDDDD
 
 STACK:
