@@ -6,7 +6,7 @@ STACK:
 
 ### MY PROJECTS
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=ZapretDesktop&show_owner=true&theme=default)](https://github.com/peshk0v/ZapretDesktop)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=ZapretDesktop&show_owner=true&theme=dark)](https://github.com/peshk0v/ZapretDesktop)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=Arch-Dotfiles&show_owner=true&theme=dark)](https://github.com/peshk0v/Arch-Dotfiles)
 
