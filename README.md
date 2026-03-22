@@ -8,9 +8,7 @@ STACK:
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=ZapretDesktop&show_owner=true&theme=default)](https://github.com/peshk0v/ZapretDesktop)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=pshmusic&show_owner=true&theme=default)](https://github.com/peshk0v/pshmusic)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=SakuraLauncher&show_owner=true&theme=default)](https://github.com/peshk0v/SakuraLauncher)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=Arch-Dotfiles&show_owner=true&theme=dark)](https://github.com/peshk0v/Arch-Dotfiles)
 
 ### CONTACTS:
 <div>
