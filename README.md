@@ -1,4 +1,6 @@
-# XDDDDDDD
+<img width="1920" height="1279" alt="изображение" src="https://github.com/user-attachments/assets/14eb5baf-0e7f-4801-9622-24735c6f2052" />
+
+# PESHNIKOFF / PSHKV / PESH0V
 
 STACK:
 <br>
