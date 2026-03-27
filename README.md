@@ -6,6 +6,8 @@ STACK:
 <br>
 [![My Skills](https://skillicons.dev/icons?i=python,js,html,css,bash,linux)](https://skillicons.dev)
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=peshk0v&theme=soft-green)](https://git.io/streak-stats)
+
 ### MY PROJECTS
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=peshk0v&repo=ZapretDesktop&show_owner=true&theme=dark)](https://github.com/peshk0v/ZapretDesktop)
