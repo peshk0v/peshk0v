@@ -72,12 +72,10 @@
             border: 1px solid rgba(255,255,255,0.3);
             padding: 8px 20px;
             border-radius: 50px;
-            font-weight: 600;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             cursor: pointer;
             transition: all 0.2s;
             backdrop-filter: blur(4px);
-            color: white;
             line-height: 1;
         }
 
@@ -425,6 +423,15 @@
             transition: all 0.2s;
         }
 
+        .error-box {
+            background: #fee2e2;
+            color: #b91c1c;
+            padding: 16px;
+            border-radius: 32px;
+            text-align: center;
+            margin: 20px;
+        }
+
         @media (max-width: 700px) {
             .qr-body {
                 padding: 24px;
@@ -443,7 +450,7 @@
             <h1 id="mainTitle">✨ QR‑код Конструктор</h1>
             <p id="subTitle">Скруглённые точки, логотип, цвета — автообновление</p>
         </div>
-        <button class="lang-switch" id="langToggle" title="Switch language">🇬🇧</button>
+        <button class="lang-switch" id="langToggle" title="Switch language">🇷🇺</button>
     </div>
 
     <div class="qr-body">
@@ -542,6 +549,12 @@
 
 <script>
     (function(){
+        if (typeof QRCodeStyling === 'undefined') {
+            document.getElementById('qrCanvasContainer').innerHTML = '<div class="error-box">❌ Библиотека QR-кодов не загрузилась. Проверьте соединение или обновите страницу.</div>';
+            document.getElementById('infoMsg').innerHTML = '⚠️ Ошибка загрузки. Пожалуйста, перезагрузите страницу.';
+            return;
+        }
+
         const translations = {
             ru: {
                 mainTitle: "✨ QR‑код Конструктор",
@@ -558,7 +571,7 @@
                 chooseFileText: "Выбрать файл",
                 removeLogoText: "Убрать",
                 logoHint: "PNG, JPG, WebP (прозрачный фон)",
-                downloadText: "Скачать PNG",
+                downloadText: "Скачать",
                 infoDefault: "🔄 Изменяйте параметры — QR-код обновляется автоматически",
                 downloadSuccess: "📥 Скачивание началось! Файл: qrcode_custom.png",
                 downloadError: "❌ Ошибка скачивания",
@@ -568,8 +581,7 @@
                 logoLoaded: "✅ QR-код обновлён + логотип",
                 qrUpdated: "✅ QR-код обновлён",
                 logoClear: "🗑️ Логотип удалён",
-                fileError: "❌ Ошибка: загрузите изображение (PNG, JPG)",
-                selectHint: "PNG, JPG, WebP (transparent bg recommended)"
+                fileError: "❌ Ошибка: загрузите изображение (PNG, JPG)"
             },
             en: {
                 mainTitle: "✨ QR Code Studio",
@@ -586,7 +598,7 @@
                 chooseFileText: "Choose file",
                 removeLogoText: "Remove",
                 logoHint: "PNG, JPG, WebP (transparent bg recommended)",
-                downloadText: "Download PNG",
+                downloadText: "Download",
                 infoDefault: "🔄 Change parameters — QR updates automatically",
                 downloadSuccess: "📥 Download started! File: qrcode_custom.png",
                 downloadError: "❌ Download failed",
@@ -596,46 +608,14 @@
                 logoLoaded: "✅ QR updated + logo",
                 qrUpdated: "✅ QR updated",
                 logoClear: "🗑️ Logo removed",
-                fileError: "❌ Error: upload an image (PNG, JPG)",
-                selectHint: "PNG, JPG, WebP (transparent bg recommended)"
+                fileError: "❌ Error: upload an image (PNG, JPG)"
             }
         };
 
         let currentLang = 'ru';
-
-        function applyLanguage(lang) {
-            const t = translations[lang];
-            document.getElementById('mainTitle').innerText = t.mainTitle;
-            document.getElementById('subTitle').innerText = t.subTitle;
-            document.getElementById('labelData').innerText = t.labelData;
-            document.getElementById('labelSize').innerText = t.labelSize;
-            document.getElementById('labelDots').innerText = t.labelDots;
-            document.getElementById('labelCorners').innerText = t.labelCorners;
-            document.getElementById('labelColors').innerText = t.labelColors;
-            document.getElementById('dotsLabel').innerText = t.dotsLabel;
-            document.getElementById('bgLabel').innerText = t.bgLabel;
-            document.getElementById('presetsLabel').innerHTML = t.presetsLabel;
-            document.getElementById('labelLogo').innerText = t.labelLogo;
-            document.getElementById('chooseFileText').innerText = t.chooseFileText;
-            document.getElementById('removeLogoText').innerText = t.removeLogoText;
-            document.getElementById('logoHint').innerText = t.logoHint;
-            document.getElementById('downloadText').innerText = t.downloadText;
-            document.getElementById('infoMsg').innerHTML = t.infoDefault;
-
-            const selectDots = document.getElementById('dotsType');
-            const dotsOptions = selectDots.options;
-            dotsOptions[0].innerText = lang === 'ru' ? 'Квадратные' : 'Square';
-            dotsOptions[1].innerText = lang === 'ru' ? 'Закруглённые квадраты' : 'Rounded squares';
-            dotsOptions[2].innerText = lang === 'ru' ? 'Круглые точки' : 'Round dots';
-            dotsOptions[3].innerText = lang === 'ru' ? 'Классические с обводкой' : 'Classy outline';
-            dotsOptions[4].innerText = lang === 'ru' ? 'Максимально скруглённые' : 'Extra rounded';
-
-            const selectCorners = document.getElementById('cornersType');
-            const cornersOptions = selectCorners.options;
-            cornersOptions[0].innerText = lang === 'ru' ? 'Квадратные' : 'Square';
-            cornersOptions[1].innerText = lang === 'ru' ? 'Скруглённые' : 'Rounded';
-            cornersOptions[2].innerText = lang === 'ru' ? 'Очень скруглённые' : 'Extra rounded';
-        }
+        let currentLogoBase64 = null;
+        let currentInstance = null;
+        let updateTimeout = null;
 
         const qrData = document.getElementById('qrData');
         const sizeSlider = document.getElementById('qrSizeSlider');
@@ -655,9 +635,41 @@
         const infoMsg = document.getElementById('infoMsg');
         const qrContainer = document.getElementById('qrCanvas');
 
-        let currentLogoBase64 = null;
-        let currentInstance = null;
-        let updateTimeout = null;
+        function applyLanguage(lang) {
+            const t = translations[lang];
+            document.getElementById('mainTitle').innerText = t.mainTitle;
+            document.getElementById('subTitle').innerText = t.subTitle;
+            document.getElementById('labelData').innerText = t.labelData;
+            document.getElementById('labelSize').innerText = t.labelSize;
+            document.getElementById('labelDots').innerText = t.labelDots;
+            document.getElementById('labelCorners').innerText = t.labelCorners;
+            document.getElementById('labelColors').innerText = t.labelColors;
+            document.getElementById('dotsLabel').innerText = t.dotsLabel;
+            document.getElementById('bgLabel').innerText = t.bgLabel;
+            document.getElementById('presetsLabel').innerHTML = t.presetsLabel;
+            document.getElementById('labelLogo').innerText = t.labelLogo;
+            document.getElementById('chooseFileText').innerText = t.chooseFileText;
+            document.getElementById('removeLogoText').innerText = t.removeLogoText;
+            document.getElementById('logoHint').innerText = t.logoHint;
+            document.getElementById('downloadText').innerText = t.downloadText;
+            if (!infoMsg.innerHTML.includes('✅') && !infoMsg.innerHTML.includes('❌') && !infoMsg.innerHTML.includes('⚠️')) {
+                infoMsg.innerHTML = t.infoDefault;
+            }
+
+            const selectDots = document.getElementById('dotsType');
+            const dotsOptions = selectDots.options;
+            dotsOptions[0].innerText = lang === 'ru' ? 'Квадратные' : 'Square';
+            dotsOptions[1].innerText = lang === 'ru' ? 'Закруглённые квадраты' : 'Rounded squares';
+            dotsOptions[2].innerText = lang === 'ru' ? 'Круглые точки' : 'Round dots';
+            dotsOptions[3].innerText = lang === 'ru' ? 'Классические с обводкой' : 'Classy outline';
+            dotsOptions[4].innerText = lang === 'ru' ? 'Максимально скруглённые' : 'Extra rounded';
+
+            const selectCorners = document.getElementById('cornersType');
+            const cornersOptions = selectCorners.options;
+            cornersOptions[0].innerText = lang === 'ru' ? 'Квадратные' : 'Square';
+            cornersOptions[1].innerText = lang === 'ru' ? 'Скруглённые' : 'Rounded';
+            cornersOptions[2].innerText = lang === 'ru' ? 'Очень скруглённые' : 'Extra rounded';
+        }
 
         function mapDotsType(type) {
             const map = { square:'square', rounded:'rounded', dots:'dots', classy:'classy', 'extra-rounded':'extra-rounded' };
@@ -815,7 +827,7 @@
         const langToggle = document.getElementById('langToggle');
         langToggle.addEventListener('click', () => {
             currentLang = currentLang === 'ru' ? 'en' : 'ru';
-            langToggle.innerText = currentLang === 'ru' ? "en' : '🇷🇺';
+            langToggle.innerText = currentLang === 'ru' ? '🇺🇸' : '🇷🇺';
             langToggle.title = currentLang === 'ru' ? 'Switch to English' : 'Переключить на русский';
             applyLanguage(currentLang);
             refreshQR();
