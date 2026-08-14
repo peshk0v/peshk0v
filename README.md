@@ -86,7 +86,7 @@
     </td>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/peshk0v/Zapret-Zen">🌐 Zapret-Zen</a></h3>
-      <p align="center">Zapret integration and automation scripts for Zen Browser.</p>
+      <p align="center">Gui Zapret Manager.</p>
       <p align="center">
         <a href="https://github.com/peshk0v/Zapret-Zen/stargazers">
           <img src="https://img.shields.io/github/stars/peshk0v/Zapret-Zen?style=flat-square&color=FFD700&logo=github" alt="Stars" />
