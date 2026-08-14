@@ -1,6 +1,8 @@
 <div align="center">
 
-# 👋 Hi there!
+<a href="https://github.com/peshk0v">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+peshk0v+%F0%9F%91%8B;Beginner+Developer+%F0%9F%92%BB;A+bit+of+a+designer+%F0%9F%8E%A8" alt="Typing SVG" />
+</a>
 
 ### 💻 `pshkv` • `peshk0v` • `peachoff`
 
@@ -10,9 +12,11 @@
   <a href="https://github.com/peshk0v?tab=stars">
     <img src="https://img.shields.io/github/stars/peshk0v?style=for-the-badge&logo=github&color=FFD700" alt="GitHub Stars" />
   </a>
-  
   <a href="https://github.com/peshk0v?tab=followers">
     <img src="https://img.shields.io/github/followers/peshk0v?style=for-the-badge&logo=github&color=2EBC4F" alt="GitHub Followers" />
+  </a>
+  <a href="https://t.me/pshlst">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
 </p>
 
