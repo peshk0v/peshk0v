@@ -70,6 +70,7 @@
 
 ### 📦 Featured Projects
 
+<div align="center">
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -98,7 +99,8 @@
     </td>
   </tr>
 </table>
-
+</div>
+  
 ---
 
 <div align="center">
