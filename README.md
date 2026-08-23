@@ -68,40 +68,6 @@
 
 ---
 
-### 📦 Featured Projects
-
-<div align="center">
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/peshk0v/Zapret-Mods">⚡ Zapret-Mods</a></h3>
-      <p align="center">Modifications and custom configurations for Zapret.</p>
-      <p align="center">
-        <a href="https://github.com/peshk0v/Zapret-Mods/stargazers">
-          <img src="https://img.shields.io/github/stars/peshk0v/Zapret-Mods?style=flat-square&color=FFD700&logo=github" alt="Stars" />
-        </a>
-        <a href="https://github.com/peshk0v/Zapret-Mods/network/members">
-          <img src="https://img.shields.io/github/forks/peshk0v/Zapret-Mods?style=flat-square&color=blue&logo=github" alt="Forks" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/peshk0v/Zapret-Zen">🌐 Zapret-Zen</a></h3>
-      <p align="center">Gui Zapret Manager.</p>
-      <p align="center">
-        <a href="https://github.com/peshk0v/Zapret-Zen/stargazers">
-          <img src="https://img.shields.io/github/stars/peshk0v/Zapret-Zen?style=flat-square&color=FFD700&logo=github" alt="Stars" />
-        </a>
-        <a href="https://github.com/peshk0v/Zapret-Zen/network/members">
-          <img src="https://img.shields.io/github/forks/peshk0v/Zapret-Zen?style=flat-square&color=blue&logo=github" alt="Forks" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
-</div>
-  
----
 
 <div align="center">
   <img width="431" height="114" alt="pshkv" src="https://github.com/user-attachments/assets/28a5ce57-38fe-4e2f-9698-14789cc8c75e" />
