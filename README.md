@@ -30,7 +30,6 @@
 - 🐧 **Interests:** Linux system administration, dotfiles customization, automation, and scripting.
 - 🛠 **Current Focus:** Learning Rust 🦀 & deepening my knowledge in Python, JavaScript, and system scripting.
 
----
 
 ### 🛠 Tech Stack
 
