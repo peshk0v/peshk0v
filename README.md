@@ -6,8 +6,6 @@
 
 ### 💻 `pshkv` • `peshk0v` • `peachoff`
 
-🚀 **Beginner Developer & Linux Enthusiast**
-
 <p align="center">
   <a href="https://github.com/peshk0v?tab=stars">
     <img src="https://img.shields.io/github/stars/peshk0v?style=for-the-badge&logo=github&color=FFD700" alt="GitHub Stars" />
