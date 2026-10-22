@@ -1,74 +1,25 @@
 <div align="center">
 
-<a href="https://github.com/peshk0v">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+peshk0v+%F0%9F%91%8B;Beginner+Developer+%F0%9F%92%BB;A+bit+of+a+designer+%F0%9F%8E%A8" alt="Typing SVG" />
-</a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Hi, I&#x27;m peshk0v"></picture>
 
-### 💻 `pshkv` • `peshk0v` • `peachoff`
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-l-dark.svg"><img src="assets/social-l-light.svg" width="24.921%" alt=""></picture><a href="https://t.me/pshlst"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-1-dark.svg"><img src="assets/social-1-light.svg" width="18.122%" alt="telegram"></picture></a><a href="https://discord.com/users/654190262700212224"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-2-dark.svg"><img src="assets/social-2-light.svg" width="16.552%" alt="discord"></picture></a><a href="https://www.reddit.com/user/Peshcovv/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-3-dark.svg"><img src="assets/social-3-light.svg" width="15.480%" alt="reddit"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-r-dark.svg"><img src="assets/social-r-light.svg" width="24.921%" alt=""></picture>
 
-<p align="center">
-  <a href="https://github.com/peshk0v?tab=stars">
-    <img src="https://img.shields.io/github/stars/peshk0v?style=for-the-badge&logo=github&color=FFD700" alt="GitHub Stars" />
-  </a>
-  <a href="https://github.com/peshk0v?tab=followers">
-    <img src="https://img.shields.io/github/followers/peshk0v?style=for-the-badge&logo=github&color=2EBC4F" alt="GitHub Followers" />
-  </a>
-  <a href="https://t.me/pshlst">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
-  </a>
-  <a href="https://donate.stream/pesh">
-    <img src="https://img.shields.io/badge/Sponsor-EA4335?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" />
-  </a>
-</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"><img src="assets/about-light.svg" width="100%" alt="About me"></picture>
 
-</div>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack"></picture>
 
----
+<a href="https://github.com/peshk0v/Zapret-Zen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-zen-dark.svg"><img src="assets/project-zapret-zen-light.svg" width="49%" alt="Zapret-Zen"></picture></a>&nbsp;<a href="https://github.com/peshk0v/Zapret-Mods"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-mods-dark.svg"><img src="assets/project-zapret-mods-light.svg" width="49%" alt="Zapret-Mods"></picture></a>
 
-### 👨‍💻 About Me
+<a href="https://github.com/peshk0v/Zapret-Mods-Patcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-mods-patcher-dark.svg"><img src="assets/project-zapret-mods-patcher-light.svg" width="49%" alt="Zapret-Mods-Patcher"></picture></a>&nbsp;<a href="https://github.com/peshk0v/Arch-Dotfiles"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-arch-dotfiles-dark.svg"><img src="assets/project-arch-dotfiles-light.svg" width="49%" alt="Arch-Dotfiles"></picture></a>
 
-- 🎓 **Bio:** Learning, experimenting with code, and customizing my development workflow.
-- 🐧 **Interests:** Linux system administration, dotfiles customization, automation, and scripting.
-- 🛠 **Current Focus:** Learning Rust 🦀 & deepening my knowledge in Python, JavaScript, and system scripting.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity"></picture>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Streak"></picture>
 
-### 🛠 Tech Stack
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img src="assets/wave-light.svg" width="100%" alt=""></picture>
 
-#### 🐧 Operating Systems & Shell
-<p>
-  <a href="https://www.kernel.org/">
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  </a>
-  <a href="https://www.gnu.org/software/bash/">
-    <img src="https://img.shields.io/badge/GNU_Bash-4EAA25?style=for-the-badge&logo=GNU-Bash&logoColor=white" alt="Bash" />
-  </a>
-  <a href="https://fishshell.com/">
-    <img src="https://img.shields.io/badge/Fish_Shell-4AA744?style=for-the-badge&logo=fish&logoColor=white" alt="Fish" />
-  </a>
-</p>
+<a href="https://t.me/pshlst"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="My website"></picture></a>&nbsp;&nbsp;<a href="https://github.com/peshk0v?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-2-dark.svg"><img src="assets/button-2-light.svg" width="auto" alt="All repositories"></picture></a>
 
-#### 💻 Programming Languages & Web
-<p>
-  <a href="https://www.rust-lang.org/">
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  </a>
-</p>
+<a href="https://metawka.github.io/expressive-profile/?from=peshk0v"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" width="auto" alt="Made with Expressive Profile"></picture></a>
 
----
-
-
-<div align="center">
-  <img width="431" height="114" alt="pshkv" src="https://github.com/user-attachments/assets/28a5ce57-38fe-4e2f-9698-14789cc8c75e" />
 </div>

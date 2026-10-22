@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "login": "peshk0v",
+  "seed": "#E63D3A",
+  "seedFromAvatar": true,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "",
+    "subtitle": "Building tiny utilities that solve real-world problems.",
+    "typing": true,
+    "avatarShape": "cookie12",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Paris, France"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "Developer and a bit of designer"
+      },
+      {
+        "icon": "school",
+        "label": "Learning, experimenting with code, and customizing my development workflow"
+      },
+      {
+        "icon": "star",
+        "label": "Learning Rust & deepening my knowledge in Python, JavaScript, and system scripting"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          },
+          {
+            "icon": "brand:rust",
+            "label": "Rust"
+          },
+          {
+            "icon": "brand:javascript",
+            "label": "Javascript"
+          },
+          {
+            "icon": "brand:gnubash",
+            "label": "Bash"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:figma",
+            "label": "Figma"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [
+      "Zapret-Zen",
+      "Zapret-Mods",
+      "Zapret-Mods-Patcher",
+      "Arch-Dotfiles"
+    ],
+    "overrides": {
+      "Zapret-Zen": {
+        "icon": "language",
+        "text": "An app for easily bypassing the throttling of various services."
+      },
+      "Zapret-Mods": {
+        "icon": "widgets",
+        "text": "Useful modifications for Zapret"
+      },
+      "Zapret-Mods-Patcher": {
+        "text": "A portable TUI application for installing modifications for Zapret",
+        "icon": "download"
+      }
+    },
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/pshlst"
+      },
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/users/654190262700212224"
+      },
+      {
+        "icon": "brand:reddit",
+        "url": "https://www.reddit.com/user/Peshcovv/"
+      }
+    ],
+    "variant": "chip",
+    "fill": "filled",
+    "card": true,
+    "shape": "soft"
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "My website",
+        "url": "https://t.me/pshlst",
+        "style": "filled"
+      },
+      {
+        "icon": "book_2",
+        "label": "All repositories",
+        "url": "",
+        "style": "tonal"
+      }
+    ],
+    "card": false
+  }
+}
