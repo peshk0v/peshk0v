@@ -1,6 +1,6 @@
 {
- "key": "13088374",
- "stars": 36,
+ "key": "6c94383d",
+ "stars": 40,
  "contributions": 348,
  "repos": 5,
  "followers": 5,
@@ -141,7 +141,7 @@
    "url": "https://github.com/peshk0v/Zapret-Zen",
    "text": "Приложение для лёгкого обхода замедлений различных сервисов.",
    "fork": false,
-   "stars": 20,
+   "stars": 21,
    "language": "Python",
    "topics": [
     "arm",
@@ -161,7 +161,7 @@
    "url": "https://github.com/peshk0v/Zapret-Mods",
    "text": "Полезные модификации для Zapret",
    "fork": false,
-   "stars": 11,
+   "stars": 12,
    "language": "Batchfile",
    "topics": [
     "mods",
@@ -182,7 +182,7 @@
    "url": "https://github.com/peshk0v/Zapret-Zen",
    "text": "Приложение для лёгкого обхода замедлений различных сервисов.",
    "fork": false,
-   "stars": 20,
+   "stars": 21,
    "language": "Python",
    "topics": [
     "arm",
@@ -202,7 +202,7 @@
    "url": "https://github.com/peshk0v/Zapret-Mods",
    "text": "Полезные модификации для Zapret",
    "fork": false,
-   "stars": 11,
+   "stars": 12,
    "language": "Batchfile",
    "topics": [
     "mods",
@@ -221,8 +221,17 @@
    "url": "https://github.com/peshk0v/Zapret-Mods-Patcher",
    "text": "Портативное tui приложение для установки модификаций на Zapret",
    "fork": false,
-   "stars": 2,
+   "stars": 3,
    "language": "Batchfile",
+   "topics": []
+  },
+  {
+   "name": "Arch-Dotfiles",
+   "url": "https://github.com/peshk0v/Arch-Dotfiles",
+   "text": "",
+   "fork": false,
+   "stars": 2,
+   "language": "Shell",
    "topics": []
   },
   {
@@ -236,15 +245,6 @@
     "config",
     "github-config"
    ]
-  },
-  {
-   "name": "Arch-Dotfiles",
-   "url": "https://github.com/peshk0v/Arch-Dotfiles",
-   "text": "",
-   "fork": false,
-   "stars": 1,
-   "language": "Shell",
-   "topics": []
   }
  ]
 }
