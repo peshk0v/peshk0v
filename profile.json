@@ -1,9 +1,9 @@
 {
   "version": 1,
   "login": "peshk0v",
-  "seed": "#E63D3A",
-  "seedFromAvatar": true,
-  "scheme": "tonalSpot",
+  "seed": "#5C7CFF",
+  "seedFromAvatar": false,
+  "scheme": "vibrant",
   "motion": true,
   "iconFill": true,
   "order": [
@@ -91,9 +91,7 @@
     "source": "manual",
     "repos": [
       "Zapret-Zen",
-      "Zapret-Mods",
-      "Zapret-Mods-Patcher",
-      "Arch-Dotfiles"
+      "Zapret-Mods"
     ],
     "overrides": {
       "Zapret-Zen": {
