@@ -10,8 +10,6 @@
 
 <a href="https://github.com/peshk0v/Zapret-Zen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-zen-dark.svg"><img src="assets/project-zapret-zen-light.svg" width="49%" alt="Zapret-Zen"></picture></a>&nbsp;<a href="https://github.com/peshk0v/Zapret-Mods"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-mods-dark.svg"><img src="assets/project-zapret-mods-light.svg" width="49%" alt="Zapret-Mods"></picture></a>
 
-<a href="https://github.com/peshk0v/Zapret-Mods-Patcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-mods-patcher-dark.svg"><img src="assets/project-zapret-mods-patcher-light.svg" width="49%" alt="Zapret-Mods-Patcher"></picture></a>&nbsp;<a href="https://github.com/peshk0v/Arch-Dotfiles"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-arch-dotfiles-dark.svg"><img src="assets/project-arch-dotfiles-light.svg" width="49%" alt="Arch-Dotfiles"></picture></a>
-
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Streak"></picture>
