@@ -1,0 +1,247 @@
+{
+ "key": "bbdc2c09",
+ "stars": 45,
+ "contributions": 364,
+ "repos": 6,
+ "followers": 8,
+ "languages": [
+  [
+   "Python",
+   2079346
+  ],
+  [
+   "HTML",
+   35072
+  ],
+  [
+   "CSS",
+   1887
+  ]
+ ],
+ "days": [
+  [
+   {
+    "c": 3,
+    "day": 1,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 2,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 3,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 4,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 5,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 6,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 7,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 8,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 9,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 10,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 11,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 12,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 13,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 14,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 15,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 16,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 17,
+    "today": false
+   },
+   {
+    "c": 2,
+    "day": 18,
+    "today": true
+   },
+   null,
+   null,
+   null
+  ]
+ ],
+ "streak": {
+  "current": 1,
+  "longest": 11
+ },
+ "pins": [
+  {
+   "name": "Zapret-Zen",
+   "url": "https://github.com/peshk0v/Zapret-Zen",
+   "text": "Приложение для лёгкого обхода замедлений различных сервисов.",
+   "fork": false,
+   "stars": 28,
+   "language": "Python",
+   "topics": [
+    "arm",
+    "discord",
+    "dns-bypass",
+    "dpi-bypass",
+    "telegram",
+    "tg-ws-proxy",
+    "ui",
+    "windivert",
+    "windows",
+    "x64"
+   ]
+  },
+  {
+   "name": "Zapret-Mods",
+   "url": "https://github.com/peshk0v/Zapret-Mods",
+   "text": "Полезные модификации для Zapret",
+   "fork": false,
+   "stars": 10,
+   "language": "Batchfile",
+   "topics": [
+    "mods",
+    "zapret-discord-youtube",
+    "zapret-hub",
+    "canva",
+    "dnd",
+    "game",
+    "linux",
+    "minecraft",
+    "soundcloud"
+   ]
+  }
+ ],
+ "all": [
+  {
+   "name": "Zapret-Zen",
+   "url": "https://github.com/peshk0v/Zapret-Zen",
+   "text": "Приложение для лёгкого обхода замедлений различных сервисов.",
+   "fork": false,
+   "stars": 28,
+   "language": "Python",
+   "topics": [
+    "arm",
+    "discord",
+    "dns-bypass",
+    "dpi-bypass",
+    "telegram",
+    "tg-ws-proxy",
+    "ui",
+    "windivert",
+    "windows",
+    "x64"
+   ]
+  },
+  {
+   "name": "Zapret-Mods",
+   "url": "https://github.com/peshk0v/Zapret-Mods",
+   "text": "Полезные модификации для Zapret",
+   "fork": false,
+   "stars": 10,
+   "language": "Batchfile",
+   "topics": [
+    "mods",
+    "zapret-discord-youtube",
+    "zapret-hub",
+    "canva",
+    "dnd",
+    "game",
+    "linux",
+    "minecraft",
+    "soundcloud"
+   ]
+  },
+  {
+   "name": "Zapret-Mods-Patcher",
+   "url": "https://github.com/peshk0v/Zapret-Mods-Patcher",
+   "text": "Портативное tui приложение для установки модификаций на Zapret",
+   "fork": false,
+   "stars": 3,
+   "language": "Batchfile",
+   "topics": []
+  },
+  {
+   "name": "Arch-Dotfiles",
+   "url": "https://github.com/peshk0v/Arch-Dotfiles",
+   "text": "",
+   "fork": false,
+   "stars": 2,
+   "language": "Shell",
+   "topics": []
+  },
+  {
+   "name": "peshk0v",
+   "url": "https://github.com/peshk0v/peshk0v",
+   "text": "Config files for my GitHub profile.",
+   "fork": false,
+   "stars": 2,
+   "language": "HTML",
+   "topics": [
+    "config",
+    "github-config"
+   ]
+  },
+  {
+   "name": "persona-gh",
+   "url": "https://github.com/peshk0v/persona-gh",
+   "text": "Customizable multi-theme GitHub profile README generator with daily auto",
+   "fork": true,
+   "stars": 1,
+   "language": "JavaScript",
+   "topics": []
+  }
+ ]
+}
