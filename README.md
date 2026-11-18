@@ -10,6 +10,8 @@
 
 <a href="https://github.com/peshk0v/Zapret-Zen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-zen-dark.svg"><img src="assets/project-zapret-zen-light.svg" width="49%" alt="Zapret-Zen"></picture></a>&nbsp;<a href="https://github.com/peshk0v/Zapret-Mods"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-zapret-mods-dark.svg"><img src="assets/project-zapret-mods-light.svg" width="49%" alt="Zapret-Mods"></picture></a>
 
+<a href="https://github.com/peshk0v/persona-gh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-persona-gh-dark.svg"><img src="assets/project-persona-gh-light.svg" width="49%" alt="persona-gh"></picture></a>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Streak"></picture>
