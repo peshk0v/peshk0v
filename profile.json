@@ -92,7 +92,8 @@
     "source": "manual",
     "repos": [
       "Zapret-Zen",
-      "Zapret-Mods"
+      "Zapret-Mods",
+      "persona-gh"
     ],
     "overrides": {
       "Zapret-Zen": {
