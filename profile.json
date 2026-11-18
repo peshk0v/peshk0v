@@ -1,8 +1,9 @@
 {
   "version": 1,
   "login": "peshk0v",
-  "seed": "#5C7CFF",
+  "seed": "#E5484D",
   "seedFromAvatar": false,
+  "theme": "retropixel",
   "scheme": "vibrant",
   "motion": true,
   "iconFill": true,

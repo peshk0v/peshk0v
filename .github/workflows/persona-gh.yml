@@ -1,0 +1,23 @@
+name: persona-gh
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - profile.json
+      - .profile/icons.json
+      - .github/workflows/persona-gh.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peshk0v/persona-gh@main
+        with:
+          token: ${{ secrets.PROFILE_TOKEN || github.token }}
