@@ -1,6 +1,6 @@
 {
- "key": "4e81396e",
- "stars": 46,
+ "key": "4f037ba",
+ "stars": 47,
  "contributions": 365,
  "repos": 6,
  "followers": 8,
@@ -117,14 +117,18 @@
    {
     "c": 0,
     "day": 19,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 20,
     "today": true
    },
-   null,
    null
   ]
  ],
  "streak": {
-  "current": 1,
+  "current": 0,
   "longest": 11
  },
  "pins": [
@@ -133,7 +137,7 @@
    "url": "https://github.com/peshk0v/Zapret-Zen",
    "text": "Приложение для лёгкого обхода замедлений различных сервисов.",
    "fork": false,
-   "stars": 29,
+   "stars": 30,
    "language": "Python",
    "topics": [
     "arm",
@@ -174,7 +178,7 @@
    "url": "https://github.com/peshk0v/Zapret-Zen",
    "text": "Приложение для лёгкого обхода замедлений различных сервисов.",
    "fork": false,
-   "stars": 29,
+   "stars": 30,
    "language": "Python",
    "topics": [
     "arm",
