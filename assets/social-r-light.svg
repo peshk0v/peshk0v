@@ -18,4 +18,4 @@
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @keyframes wght{from{font-variation-settings:'ROND' 100,'wght' 400}to{font-variation-settings:'ROND' 100,'wght' 760}}
 @keyframes wave{from{transform:translateX(0)}to{transform:translateX(-48px)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><pattern id="crtPaper" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f9f4ea"/><rect width="4" height="1.5" fill="#451617" opacity="0.05"/></pattern></defs><g transform="translate(-640.8 0)"></g><rect x="-640.8" y="0" width="840" height="88" rx="0" stroke="#9b3134" stroke-width="1" fill="url(#crtPaper)"/></svg>
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><pattern id="crtPaper" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f6f5eb"/><rect width="4" height="1.5" fill="#123320" opacity="0.05"/></pattern></defs><g transform="translate(-640.8 0)"></g><rect x="-640.8" y="0" width="840" height="88" rx="0" stroke="#297449" stroke-width="1" fill="url(#crtPaper)"/></svg>
